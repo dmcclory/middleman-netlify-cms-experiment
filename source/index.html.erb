@@ -31,6 +31,14 @@ title: Welcome to Middleman
   <% end %>
 </ul>
 
+Jobs:
+
+<ul>
+  <% data.positions.each do |key, job| %>
+    <li><%= job.title %></li>
+  <% end %>
+</ul>
+
 <%= link_to(
   "Read Documentation",
   "https://middlemanapp.com/basics/templating_language/",
