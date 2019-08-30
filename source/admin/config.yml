@@ -18,7 +18,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "positions"
     label: "Positions"
     folder: "data/positions"
-    format: "yml"
+    extension: yml
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
